@@ -1,0 +1,80 @@
+:root {
+  --primary-color: black;
+  --accent-color: white;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--accent-color);
+}
+
+.navbar {
+  background: var(--accent-color);
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 2em;
+}
+
+.navbar .mobile-cta {
+  cursor: pointer;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero p {
+  width: 50%;
+}
+
+nav.menu-btn {
+  display: block;
+}
+
+nav {
+  position: fixed;
+  z-index: 999;
+  width: 66%;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  padding: 1em;
+  background: var(--primary-color);
+}
+
+nav ul.primary-nav {
+  margin-top: 5em;
+}
+
+nav .exitbtn {
+  float: right;
+  padding: .5em;
+  cursor: pointer;
+}
+
+nav li a {
+  color: var(--accent-color);
+  text-decoration: none;
+  display: block;
+  padding: .5em;
+  text-align: right;
+}
+/*# sourceMappingURL=home.css.map */
