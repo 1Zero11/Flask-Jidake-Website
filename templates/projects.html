@@ -5,6 +5,7 @@
         <div class="row">
             {% for project in projects %}
             <div class="col-sm-5 bg-dark m-3 p-3">
+                <img id="mobile-cta" src="{{url_for('static', filename=project.imgsrc)}}">
                 <h1>{{project.name}}</h1>
                 <p>{{project.description}}</p>
                 <a href="{{project.href}}">Hyperlink</a>

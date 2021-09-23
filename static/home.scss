@@ -42,6 +42,12 @@ ul {
 
 .hero{
 
+    padding: 1em;
+
+    h1{
+        margin-bottom: 1em;
+    }
+    
     p{
         width: 50%;
     }
@@ -82,3 +88,36 @@ nav{
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .mobile-cta, .exitbtn{
+        display: none;
+    }
+
+    .navbar .container{
+        display: grid;
+        grid-template-columns: 180px auto;
+    }
+
+    .navbar nav{
+        display: flex;
+        background: none;
+        position: unset;
+        height: auto;
+        padding: 0;
+        justify-content: space-between;
+        width: 100%;
+
+        ul{
+            display: flex;
+        }
+
+        a {
+            color: black;
+            padding: .1em 1em;
+        }
+
+        ul.primary-nav{
+            margin: 0;
+        }
+    }
+}

@@ -41,6 +41,14 @@ ul {
   padding: 0;
 }
 
+.hero {
+  padding: 1em;
+}
+
+.hero h1 {
+  margin-bottom: 1em;
+}
+
 .hero p {
   width: 50%;
 }
@@ -76,5 +84,42 @@ nav li a {
   display: block;
   padding: .5em;
   text-align: right;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-cta, .exitbtn {
+    display: none;
+  }
+  .navbar .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+        grid-template-columns: 180px auto;
+  }
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: none;
+    position: unset;
+    height: auto;
+    padding: 0;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+  }
+  .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar nav a {
+    color: black;
+    padding: .1em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=home.css.map */
