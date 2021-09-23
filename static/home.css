@@ -50,7 +50,7 @@ ul {
 }
 
 .hero p {
-  width: 50%;
+  width: 100%;
 }
 
 nav.menu-btn {
@@ -120,6 +120,9 @@ nav li a {
   }
   .navbar nav ul.primary-nav {
     margin: 0;
+  }
+  .hero p {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=home.css.map */
