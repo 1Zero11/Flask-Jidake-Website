@@ -1,3 +1,3 @@
 # Flask-Jidake-Website
  
-Пробный сайт для Jidake
+Простой сайт для Jidake
